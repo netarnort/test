@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+#checked2 {
+    transform-origin: center top;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+#checked2:hover {
+    transform: scale(1.2);
+
+}
+
+#BOX1 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    width: 1410px;
+    height: 1080px;
+    border-color: black;
+    border-radius: 0px;
+}
+#zone0 {
+    margin: 0 auto;
+    height: 1100px;
+    top: 60px;
+    position: absolute;
+}
+#zone02 {
+    margin: 0 auto;
+    height: 1100px;
+    top: 950px;
+    position: absolute;
+}
+
+#zone03 {
+    margin: 0 auto;
+    height: 1100px;
+    top: 1840px;
+    position: absolute;
+}
+
+#zone04 {
+    margin: 0 auto;
+    height: 1100px;
+    top: 2730px;
+    position: absolute;
+}
+
+
+#zonehead {
+    margin: 0 auto;
+    height: 180px;
+    top: 20px;
+    position: absolute;
+}
+
+#zoneback {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.grid {
+    left: 220px;
+    margin: 0 auto;
+    position: absolute;
+    top: 370px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-gap: 260px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid img{
+    margin: 0 auto;
+    height: 300px;
+}
+
+.grid2 {
+    left: 220px;
+    margin: 0 auto;
+    position: absolute;
+    top: 1270px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-gap: 260px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2 img{
+    margin: 0 auto;
+    height: 300px;
+}
+.grid3 {
+    left: 220px;
+    margin: 0 auto;
+    position: absolute;
+    top: 2170px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-gap: 260px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid3 img{
+    margin: 0 auto;
+    height: 300px;
+}
+.grid4 {
+    left: 220px;
+    margin: 0 auto;
+    position: absolute;
+    top: 3070px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-gap: 260px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid4 img{
+    margin: 0 auto;
+    height: 300px;
+}

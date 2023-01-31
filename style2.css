@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+#checked2 {
+    transform-origin: center top;
+    transition-property: transform;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+#checked2:hover {
+    transform: scale(1.1, 1.1);
+
+}
+
+#BOX1 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1410px;
+    max-height: 1080px;
+    border-color: black;
+    border-radius: 0px;
+}
+
+#zonehead {
+    margin: 0 auto;
+    height: 180px;
+    top: 20px;
+    position: absolute;
+}
+
+#zoneback {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#zoneinfo {
+    left: 890px;
+    margin: 0 auto;
+    top: 540px;
+    width: 500px;
+    height: 500px;
+    font-display: 50px;
+    position: absolute;
+}
+
+#zone0 {
+    margin: 0 auto;
+    height: 900px;
+    top: 105px;
+    position: absolute;
+}
+
+#zone1 {
+    left: 200px;
+    margin: 0 auto;
+    height: 550px;
+    top: 230px;
+    position: absolute;
+}
+
+#zone2 {
+    left: 800px;
+    margin: 0 auto;
+    height: 80px;
+    top: 360px;
+    position: absolute;
+}
+
+#zone3 {
+    left: 800px;
+    margin: 0 auto;
+    height: 80px;
+    top: 460px;
+    position: absolute;
+}
+
+#zone4 {
+    left: 800px;
+    margin: 0 auto;
+    height: 80px;
+    top: 560px;
+    position: absolute;
+}
+
+#zone5 {
+    left: 800px;
+    margin: 0 auto;
+    height: 80px;
+    top: 660px;
+    position: absolute;
+}
+
+#zone6 {
+    left: 800px;
+    margin: 0 auto;
+    height: 80px;
+    height: 80px;
+    top: 260px;
+    position: absolute;
+}
+
+#zone7 {
+    left: 320px;
+    margin: 0 auto;
+    height: 80px;
+    top: 800px;
+    position: absolute;
+}

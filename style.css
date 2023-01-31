@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+#checked {
+  transform-origin: center top;
+  transition-property: transform;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+#checked:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#checked2 {
+  transform-origin: center top;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+#checked2:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.fade-in-image {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#BOX1 {
+  margin: 0 auto;
+  width: 1410px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#zone1 {
+  top: 30px;
+  max-width: 1200px;
+  height: 200px;
+  position: absolute;
+}
+
+#zone2{
+  right: 0;
+  max-width: 1200px;
+  top: 600px;
+  position: absolute;
+}
+
+#zone3 {
+  max-width: 1200px;
+  position: absolute;
+  top: 380px;
+}
+
+
